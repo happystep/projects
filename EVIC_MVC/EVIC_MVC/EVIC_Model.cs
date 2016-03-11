@@ -59,9 +59,11 @@ namespace EVIC_MVC
         /// </summary>
         public bool isToggled
         {
-            get { return _isMetric; }
-            set { _isMetric = value; }
+            get { return _isToggled; }
+            set { _isToggled = value; }
         }
+
+
 
 
 
