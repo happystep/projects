@@ -475,7 +475,6 @@ namespace EVIC_MVC
             }
 
             return " ";
-
         }
         /// <summary>
         /// this sets the inside temperature depending on the unit
