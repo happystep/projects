@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace EVIC_MVC
 {
+    /// <summary>
+    /// this is the view class for the console EVIC app
     class CONSOLE_VIEW
     {
         /// <summary>
         /// this is a field that corresponds to where the user is in the console application
         /// </summary>
         private static int index = 0;
-
         /// <summary>
         /// get/set for the index field
         /// </summary>
@@ -21,9 +22,10 @@ namespace EVIC_MVC
             get { return index; }
             set { index = value; }
         }
-
-        // switch case will handle the differing index values
-
+       /// <summary>
+       /// This method displays the main menu
+       /// </summary>
+       /// <param name="model"></param>
        public void Run(EVIC_Model model)
         {
             switch (index)
@@ -45,17 +47,12 @@ namespace EVIC_MVC
                     break;
                 default:
                     break;
-
-
-
-
-
-
             }
-
-
         }
-
+        /// <summary>
+        /// this method takes displaying of running the program in each menu
+        /// </summary>
+        /// <param name="model"></param>
         public void RunInside (EVIC_Model model)
         {
             Console.Clear();
@@ -88,35 +85,67 @@ namespace EVIC_MVC
                     break;
                 default:
                     break;
-
-
-            }
-
-
-
+              }
         }
-
+        /// <summary>
+        /// this method displays the menu start
+        /// </summary>
+        public void MenuStart()
+        {
+            Console.WriteLine("You chose the Regular Run. Use the <- -> arrows to navigate through the Main Menu");
+        }
+        /// <summary>
+        /// this method clears the console
+        /// </summary>
         public void ConsoleClear()
         {
             Console.Clear();
         }
-            
-
+        /// <summary>
+        /// this method displays option 2 from the simulator
+        /// </summary>
+        public void SimOp2Show()
+        {
+            Console.WriteLine("Toggle Warning Messages");
+            Console.WriteLine("a) Door ajar");
+            Console.WriteLine("b) Check Engine Soon");
+            Console.WriteLine("c) Oil Change");
+        }
+        /// <summary>
+        /// this method displays option 3 from the simulator
+        /// </summary>
+        public void SimOp3Show()
+        {
+            Console.WriteLine("a) Inside Temperature");
+            Console.WriteLine("b) Outside Temperature");
+        }
+        /// <summary>
+        /// this displays the start menu
+        /// </summary>
         public void Start()
         {
             Console.WriteLine("Which mode would you like to enter?");
             Console.WriteLine("1) Simulation");
             Console.WriteLine("2) Regular Run");
         }
-
+        /// <summary>
+        /// this displays an exception 
+        /// </summary>
+        /// <param name="ex"></param>
         public void ExceptionCatching(Exception ex)
         {
             ex.ToString();
             
         }
-
-        
-
-
-    }
-}
+        /// <summary>
+        /// this displays the simulator menu
+        /// </summary>
+        public  void SimulatorMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("1) System Status");
+            Console.WriteLine("2) Warning Messages");
+            Console.WriteLine("3) Temperature"); 
+        }
+    }//end class
+}//end namespace
