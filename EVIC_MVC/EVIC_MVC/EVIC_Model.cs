@@ -9,6 +9,43 @@ namespace EVIC_MVC
     public class EVIC_Model
     {
         /// <summary>
+        /// enumeration of which state we are in
+        /// </summary>
+        public enum State {SystemStatus, WarningMessages, PersonalSettings, TempInfo, TripInfo };
+
+        public State current;
+
+       public void changeState (int index)
+        {
+            switch (index)
+            {
+                case 0:
+                    current = State.SystemStatus;
+                    break;
+                case 1:
+                    current = State.WarningMessages;
+                    break;
+                case 2:
+                    current = State.PersonalSettings;
+                    break;
+                case 3:
+                    current = State.TempInfo;
+                    break;
+                case 4:
+                    current = State.TripInfo;
+                    break;
+                default:
+                    break;
+
+
+            }
+
+
+
+        }
+
+
+        /// <summary>
         /// Field for the odometer
         /// </summary>
         private static int _odometer = 0;
@@ -63,6 +100,46 @@ namespace EVIC_MVC
             set { _isToggled = value; }
         }
 
+        private  string[] options = { "System Status", "Warning Messages", "Personal Settings", "Temperature Information", "Trip Information" };
+
+        public override string ToString()
+        {
+            string s = "";
+
+            switch (current)
+            {
+                case State.SystemStatus:
+                  s  = options[0];
+                    break;
+                case State.WarningMessages:
+                    s = options[1];
+                    break;
+                case State.PersonalSettings:
+                    s = options[2];
+                    break;
+                case State.TempInfo:
+                    s = options[3];
+                    break;
+                case State.TripInfo:
+                    s = options[4];
+                    break;
+                default:
+                    break;
+                 
+                    
+
+
+
+            }
+
+
+            return s;
+                
+
+
+
+
+        }
 
 
 
@@ -72,8 +149,16 @@ namespace EVIC_MVC
 
 
 
-   
-        
+
+
+
+
+
+
+
+
+
+
 
 
 

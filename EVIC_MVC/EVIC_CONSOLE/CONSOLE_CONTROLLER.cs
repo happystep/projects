@@ -8,6 +8,8 @@ namespace EVIC_MVC
 {
     class CONSOLE_CONTROLLER
     {
+        
+
         static void Main(string[] args)
         {
             //creation of view object
@@ -17,7 +19,16 @@ namespace EVIC_MVC
             EVIC_Model _model = new EVIC_Model();
 
 
+            _view.Run(_model);
+            _model.changeState(2);
+            _view.Run(_model);
+          
 
+
+
+
+            //so it doesn't quit on it's own 
+            Console.ReadLine();
 
 
 
