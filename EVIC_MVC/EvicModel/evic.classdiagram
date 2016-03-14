@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="3074b115-b0bf-4c78-82f5-4e5aebd54561" name="evic" linkedPackageId="658f4530-92a0-4fd4-9e75-24e4025d6a77" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="bda08cce-70a4-4fe4-92c8-b655253d9b19">
+      <profileInstance Id="149b2588-dd1d-4330-953a-34fa653f7a03" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2f6d7426-4b4d-48e8-936d-4b7842be2b43">
+      <profileInstance Id="6678202e-47b8-4c48-a3dc-25d5f0863a84" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="40f3a560-571f-4fa8-8006-0a5bc5ed6024" name="EVIC_Model" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cc5b557e-4f29-4804-aafc-6be52e58547b" />
+        <ownedAttributesInternal>
+          <property Id="9b6de77f-e611-4752-ab2f-e0c33ee7dfb5" name="_checkEngine" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e15117a-2f18-4017-b4f2-7a9edd16e627" />
+          </property>
+          <property Id="72ecbda1-1b35-44b5-9dcb-27e2d9e708d9" name="_insideTemp" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6cf923bc-6b8f-4e3a-a3d3-44247783647e" />
+          </property>
+          <property Id="7c832695-3147-45db-b189-96e33cba766b" name="_doorAjar" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d1fd17f3-a5a0-45ec-aed0-88bdb7d09083" />
+          </property>
+          <property Id="04b80907-8dfe-4647-af4c-c8f03d479f67" name="_isMetric" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e1be2682-4d26-4907-a45a-969b080137c0" />
+          </property>
+          <property Id="17ab7935-f84a-488f-994d-097798c14027" name="_isToggled" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="237b60b6-4940-4c35-9967-200dcaa97200" />
+          </property>
+          <property Id="43688d97-3403-46e8-b478-4691d0225c64" name="_isToggledTemp" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2cf105ca-ee02-424e-ae31-540320d28b9b" />
+          </property>
+          <property Id="e90d891e-e96f-4a32-822a-9dbc04db62da" name="_isToggledTrip" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e4f19d73-f6ed-4bbe-990d-93e77f1ba592" />
+          </property>
+          <property Id="298af1ef-21ad-42e8-95e3-cd992972efe9" name="_milesToOilChange" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e365b951-a1fa-49ec-b1d7-ccd4ea88674f" />
+          </property>
+          <property Id="8d18eff3-13b0-4532-b8bf-c43ddaff5425" name="_odometer" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="77b44d5e-cd57-43b4-8cab-52269e8686a4" />
+          </property>
+          <property Id="4c826ec7-2ee6-4a3a-980b-fe58aff1c208" name="_oilChange" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a1837420-9224-4ead-be96-ef79272ba10b" />
+          </property>
+          <property Id="e3ce0e57-8958-4856-9d55-fdf40077a8a9" name="current" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c24d0bd6-fc55-47d9-ae9b-b2a3c1d13aa3" />
+          </property>
+          <property Id="783d5572-7043-4499-97e2-917be5274bcd" name="_systemToggle" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02748959-b942-43a7-8665-909a181cebf6" />
+          </property>
+          <property Id="ec8aaa1a-2735-4387-896b-83739e51f48a" name="_tripA" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="51caa344-f75b-47ad-9006-d1c72f908da2" />
+          </property>
+          <property Id="8afb976e-7f07-4509-a828-20fae3656aca" name="_tripB" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="395efd05-cd05-4399-a63b-4b87481c09a7" />
+          </property>
+          <property Id="d6c74843-7d28-41ad-beaa-0f0d0eb0334f" name="options" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e877ff74-dff9-4873-8303-98db5451b1c4" />
+          </property>
+          <property Id="a05fca78-8403-46db-b73b-b55334668dac" name="r" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="177f4ed0-c1a9-4065-b7e9-631c27e8de1f" />
+          </property>
+          <property Id="fdbb5e84-348e-49e6-ae3c-54ba4d98c845" name="randomNumbers" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e436ea8-44fb-4ba8-a816-8c860ba28721" />
+          </property>
+          <property Id="9c5c8966-2167-44af-a33a-66280ed4d904" name="unit" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="320692e3-dc80-4fc3-af5b-71bd758b59d5" />
+          </property>
+          <property Id="da65361c-1557-49d8-950a-194c7e9d7f26" name="warningMessages" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5c98db65-0f16-4e65-95d8-fdca466785be" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="60b6ba86-2f57-417f-8ffe-8d905f61f81b" name="changeState" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="33fc2230-f6a7-40ba-9b30-104602070154" />
+          </operation>
+          <operation Id="7d548d41-3a83-4ad9-9859-80c3e13b9156" name="changeUnit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c4be9dd9-8459-48dd-9d9c-cddfee86c683" />
+          </operation>
+          <operation Id="9b35adae-0e93-49db-b848-3c11b86afacf" name="CheckDoor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3564abd6-ddba-47fa-afcf-381b31994c7d" />
+          </operation>
+          <operation Id="a79286ef-36cd-4345-a7ef-a2fe4e1c84b0" name="CheckEngineString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="318c647f-9403-4735-abe7-87007beba162" />
+          </operation>
+          <operation Id="b8e470d6-37df-42e3-b121-3f099e232e61" name="CheckOilString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6d5d385f-ca7a-4a04-aeb5-99d4a2393fc7" />
+          </operation>
+          <operation Id="dd7328f3-e699-4fe9-89f1-ad39a6d57ad2" name="CheckPersonalSettingsString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a3496f79-c106-4b98-ad48-afda0a7d1b70" />
+          </operation>
+          <operation Id="3d5fc90b-b308-4ffc-b1c4-6245204f2e47" name="ConvertToCelsius" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ee5c9be8-8b6f-4690-b9ca-7e2b22f68ec6" />
+          </operation>
+          <operation Id="741384b4-f45a-446a-a11a-ebd688169b7c" name="ConvertToFarenheit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c3a529a7-15be-434b-a517-0231d62a3af5" />
+          </operation>
+          <operation Id="017a87f7-7bac-488e-a19f-a032b500655d" name="ConvertToKM" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="112b0041-c90d-4a11-9c6d-cf9ba45254d6" />
+          </operation>
+          <operation Id="a477e149-5685-460b-ad6b-adb7823efd42" name="ConvertToMI" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="77c80159-59cc-41aa-a6dc-923d8f002e32" />
+          </operation>
+          <operation Id="0cb1ef6f-d6f7-479e-bde6-a21d6dab570f" name="ResetTrip" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c022a6b4-b0c9-4c56-94c2-e9b4657b6223" />
+          </operation>
+          <operation Id="ab1da43b-5ac4-4663-bb39-0cef2cc2dbc8" name="SetInsideTemp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d8fafe8f-8c03-40ce-b050-2a90de2d968a" />
+          </operation>
+          <operation Id="8d59e76b-d645-43be-b0cf-6ca416c1f711" name="SetOdometer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="28184754-4e28-4ad9-aba3-d5219c22befb" />
+          </operation>
+          <operation Id="d54d6eb1-ea0f-4c82-aade-5e58280e821d" name="SetOilChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dad2cd71-4474-4da7-9841-dcd43efff290" />
+          </operation>
+          <operation Id="a63a67f8-397b-4f43-90d5-289e33273c6e" name="SetOutsideTemp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f7eb8dc0-b317-4d0c-a319-1fc843cafc52" />
+          </operation>
+          <operation Id="dfed5b0a-8bea-4cd9-8ee9-d23ee18dcaef" name="SetTripA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="80999546-297c-4da6-8907-f805a1743cff" />
+          </operation>
+          <operation Id="e0f68ae1-1f43-4e78-a9e1-47fd37109a4d" name="SetTripB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="75ce6c94-5796-4efe-9134-37c8a8aab28e" />
+          </operation>
+          <operation Id="d3e303b5-f0a8-483a-b7ba-03ff84d9e67c" name="SetWarningSimulation" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3b29bfc8-1803-41fd-88cd-e545091d8976" />
+          </operation>
+          <operation Id="9944ea82-3f7b-479a-9466-12b57dedb4be" name="StatusIncrement" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="01577c89-03f4-4def-a1f7-e07294cc4bc5" />
+          </operation>
+          <operation Id="90037a8b-7e77-4939-bad4-693a68723d3a" name="TemperatureCheck" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="96b2a881-9aa2-4ea6-a7cd-b11cbd0272fd" />
+          </operation>
+          <operation Id="1ede54f6-47ec-48d7-bf89-7216683b7de2" name="Toggle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="663a1e68-0d16-48f0-a1f4-906cb7f27b6e" />
+          </operation>
+          <operation Id="fd2b2586-1070-45bf-bd3f-b69fa0ae7c1d" name="ToggleSystem" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1053d3bb-bda5-4579-b553-f658dde0dbdc" />
+          </operation>
+          <operation Id="5342d5c3-a066-4b78-a889-a28fbd2509d5" name="ToggleTemp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a2ec6b71-aac9-401b-87d5-0168d6f832a5" />
+          </operation>
+          <operation Id="00a1115b-a3d8-4fac-a4ce-9e5b9e08d2f2" name="ToggleTrip" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7f3f3c6b-ae94-4082-9e54-8f901d4ab098" />
+          </operation>
+          <operation Id="a3fbc070-c118-43f1-a466-ef395889ad2a" name="ToString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b3be5f65-a493-47eb-9ee7-a20984abdd86" />
+          </operation>
+          <operation Id="a3a81e3f-94b4-4f14-b07c-0a1c278dd915" name="TripChoose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="25beb3e7-2a6c-4de8-a51d-069fa19e5813" />
+          </operation>
+          <operation Id="be9780c8-b7ba-46dc-8e6a-0281f549cc17" name="UnitStringDistance" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5b1689d6-b5ac-4567-80cc-4671d04add2c" />
+          </operation>
+          <operation Id="96656c22-4184-4b2f-9425-d4edd6277b6a" name="UnitStringTempreature" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d9517507-e6b3-4c28-8561-55d899079908" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9e653ba0-2a90-49ca-8121-ded3f1a3251b" name="GUI_VIEW" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac17109f-d9af-4108-a79b-c05e1fd6e0b4" />
+        <ownedOperationsInternal>
+          <operation Id="6ff8b8b2-088a-4e81-afb5-273ea625c15f" name="CheckEngineSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="04045608-fc88-402c-ad0d-70cf6e7a0e5e" />
+          </operation>
+          <operation Id="c7a6f38a-ef29-48d2-9fe7-1231f0982d1d" name="InsideTemperatureSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="889499c6-2a62-45b5-801e-199000435812" />
+          </operation>
+          <operation Id="797ea6d6-bfd1-4ea4-8057-22e1f59d4c29" name="DoorAjarSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b1e3455b-370d-4596-bf30-53aea2aa5cf2" />
+          </operation>
+          <operation Id="f8caf923-8ef5-41fc-90a0-4dea5c7247ac" name="NextOilChangeSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8ca1f563-ad76-47b4-bd09-2b95c0d5e41c" />
+          </operation>
+          <operation Id="3e7610d5-db26-4967-a74d-8707b23b08a0" name="OdometerSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0c5f4413-9657-41f8-aae1-c106b77fc316" />
+          </operation>
+          <operation Id="8a1b9de7-2297-41d2-bb46-b5e19c1c36da" name="OilChangeSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="98f5b323-d85c-4b1d-9885-7052867581dd" />
+          </operation>
+          <operation Id="b69c679f-4542-41ca-b18a-b5cf02df70a9" name="OusideTemperatureSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b2aa92bb-939c-460c-8e72-b855752118a1" />
+          </operation>
+          <operation Id="ae631f1c-cf62-4edf-b055-dce6ce8f9863" name="ResetButtonVisibility" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c160120b-3cf3-4f11-b8dd-da3302e4d9af" />
+          </operation>
+          <operation Id="9964e20c-8e64-4a50-bfdb-5d8879a2b9be" name="ResetButtonVisibilityTrue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ced770d3-86ad-459d-9b1a-12f67c3e9067" />
+          </operation>
+          <operation Id="b292618a-14fb-4600-9218-5d7e2d0266a4" name="ResetNextOilChange" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="98dab8a6-29d7-4b49-893a-354b5c8fc552" />
+          </operation>
+          <operation Id="a00b1030-130f-48e0-98b3-925f9ea24037" name="ResetOdometer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="08d84e87-669b-4ad7-af09-3edf3be7e032" />
+          </operation>
+          <operation Id="8d0d8179-5d5a-4f68-a789-b3bed864652b" name="ResetToggle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bb001fcc-85cd-4a0c-aed8-7915198ce9d4" />
+          </operation>
+          <operation Id="159d45c0-5083-4985-9097-d15d2ad0c323" name="ResetToggleTrue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a639fee1-c3aa-4af9-9cd6-935369e38864" />
+          </operation>
+          <operation Id="e9c3894a-c633-4210-b13c-e64a428c52a0" name="ResetTripA" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="66ffc0ff-3326-459a-8584-f9b3d6113dcb" />
+          </operation>
+          <operation Id="d5e7db79-3725-4b18-82ff-aaf6b0fe7890" name="ResetTripB" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="21b97c7b-0613-4225-b47b-e43cc8e157aa" />
+          </operation>
+          <operation Id="13e3d086-624d-4719-b54a-37db441f03bc" name="TextBoxDisabled" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd745df2-b29c-4031-91ff-23e2a22dbf66" />
+          </operation>
+          <operation Id="8f57619e-c150-4f41-b829-3958ee700808" name="TextBoxEnabled" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d5815afc-6168-47ff-a97f-dcc0bf3cfea6" />
+          </operation>
+          <operation Id="cfa4696a-ef47-43e9-8979-16e89d646791" name="TripASetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="51c81b87-c842-4bc2-aa2b-b625fbd4e6eb" />
+          </operation>
+          <operation Id="9ccbd732-953f-413d-b072-fdbf32d3e1e9" name="TripBSetting" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="451a4a23-b1c0-4b38-acea-8e75a1ba1b44" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="af34179b-0dc0-4440-9fb6-a3f31c1d9ea9" name="Gui (controller)" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="41ee9e2d-dacc-41a6-98fd-79d2979ae68c" />
+        <targetEnds>
+          <association Id="4d9c0a8a-b39e-4b8b-b7ec-b063926aed2f" isDerived="false" sourceEndRoleName="Gui (controller)" targetEndRoleName="GUI_VIEW" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9e653ba0-2a90-49ca-8121-ded3f1a3251b" LastKnownName="GUI_VIEW" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="885627f6-7210-4465-9eb8-84d71365c2b5" name="Gui (controller)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6d5c0bcc-1153-40d1-a00a-3f2e6831f4b8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3447139e-b167-4e6b-b3ea-e37d2d35f52c" name="GUI_VIEW" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4e88cdfd-c326-4c3c-8ec2-b21b539b4ea6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0820195e-c881-49e8-8740-6ec55bccd709" />
+          </association>
+          <association Id="54c5d8e3-3ac0-412f-bf7d-b9bd9c7535b3" isDerived="false" sourceEndRoleName="Gui (controller)" targetEndRoleName="EVIC_Model" isLeaf="false" isAbstract="false">
+            <classMoniker Id="40f3a560-571f-4fa8-8006-0a5bc5ed6024" LastKnownName="EVIC_Model" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b9988cb-b0da-476b-ba80-51769b77eaff" name="Gui (controller)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5a6971d3-87bb-48ad-a853-448dfec2262b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58899be7-46df-4c1b-94a1-b3a29da7067a" name="EVIC_Model" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24d6aff6-d0e0-4e4e-8c4d-708baac9be4e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="59ecc857-824c-4335-b06f-741a6dab291c" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="7d961e81-3b8e-4e7e-b6bd-c63e39ef7352" name="_edited" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4dae2aea-04dc-457c-8805-b8c04cd170cd" />
+          </property>
+          <property Id="ff7b45ff-6301-42ef-a45d-4d760a0badd1" name="_model" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="daa0ddd7-b860-4953-afcb-6762b9b3db7b" />
+          </property>
+          <property Id="f1040a07-2ed1-4d13-8163-17847bd8a9b8" name="_run" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c5848682-73a0-41c9-b75f-ce429644538e" />
+          </property>
+          <property Id="e7edc739-4634-47cd-bb3f-3a38a9dd1008" name="_view" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="07c62e6b-4a39-436a-8294-4aed94ca4c79" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="05de37da-e334-4840-a897-d9a3871383a5" name="Gui" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="843bdc65-1956-4bc4-9549-391c09ce257b" />
+          </operation>
+          <operation Id="6df5979f-4a19-4b71-a842-96f321dbaeb3" name="RunAlone" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b621e702-ec17-4e8c-8feb-8f5a06b2f571" />
+          </operation>
+          <operation Id="7fb83ca6-0dd9-4394-a010-611455ab9a78" name="uxDoorToggle_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2947d45b-f167-4ded-b7e5-6901c533bb1e" />
+          </operation>
+          <operation Id="e034ce89-8b32-4d2d-8aa3-1c608970f7fe" name="uxEditButton_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c98261b4-6fdb-4cf2-b678-46bbdc4928c0" />
+          </operation>
+          <operation Id="c2f2be2a-7c85-4007-9a4c-1725bb523240" name="uxEngineToggleClick" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f276bfe5-145e-4e4c-ac2a-88aa459a78f5" />
+          </operation>
+          <operation Id="b55e9dfb-744c-4af8-8414-c0a47ed7155a" name="uxResetButton_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f254c536-3c1c-472f-9c3c-ea4829f3b3b4" />
+          </operation>
+          <operation Id="acb5fda2-be49-492a-b7e9-bd3b9b9b2075" name="uxResetOil_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0331d4f0-ef3d-4713-9e34-c2806690ef01" />
+          </operation>
+          <operation Id="a51bc612-ac40-4025-8adb-1adc409c63ac" name="uxResetTripA_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bb5e9849-52fd-4d2d-a94c-c9846f94b8c3" />
+          </operation>
+          <operation Id="56ec0b6e-e6de-4d23-97a2-70bec690d3b9" name="uxResetTripB_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4f0d92e5-0691-47b9-a348-80c61a2bbe1a" />
+          </operation>
+          <operation Id="b87e8a1f-42c5-4789-95ac-7a541f046df7" name="uxUSUnitRadioButton_CheckedChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8ab5fcff-d76e-4745-9295-3aeadf4ccf54" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="658f4530-92a0-4fd4-9e75-24e4025d6a77" name="EvicModel">
+    <elementDefinition Id="1a4a004a-e54f-4016-ac61-a723b3511b41" />
+  </package>
+</logicalClassDesignerModel>
